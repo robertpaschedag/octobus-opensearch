@@ -1,5 +1,5 @@
 REGISTRY        ?= octobus.common.repositories.cloud.sap/opensearchproject
-IMAGE_NAME      ?= octobus-opensearch
+IMAGE_NAME      ?= opensearch
 OPENSEARCH_VERSION ?= 3.9.0
 TAG             ?= $(OPENSEARCH_VERSION)
 PLATFORMS       ?= linux/amd64,linux/arm64

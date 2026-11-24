@@ -25,3 +25,4 @@ RUN opensearch-plugin install --batch repository-s3 \
 # Install Prometheus exporter plugin
 RUN opensearch-plugin install --batch \
       "https://github.com/opensearch-project/opensearch-prometheus-exporter/releases/download/${PLUGIN_VERSION}/prometheus-exporter-${PLUGIN_VERSION}.zip"
+
